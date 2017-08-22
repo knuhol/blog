@@ -33,7 +33,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ivana-dolezalova-78b512b6'),
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ivana-dolezalova'),
           ('github', 'https://github.com/akarienta'),
           ('stack-overflow', 'https://stackoverflow.com/users/3780766'))
 
