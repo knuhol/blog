@@ -41,7 +41,7 @@ MENUITEMS = (('Archiv', '/archives.html'),
              ('Kategorie', '/categories.html'),
              ('Tagy', '/tags.html'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 THEME = "themes/Flex"
 
