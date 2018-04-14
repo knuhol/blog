@@ -8,13 +8,15 @@ SITETITLE = SITENAME
 SITESUBTITLE = AUTHOR
 SITEDESCRIPTION = 'Ivana Doležalová píše blog (nejen) o svém odchodu do Švédska'
 SITEURL = 'http://ivadol.cz'
-COPYRIGHT_YEAR = 2017
+COPYRIGHT_YEAR = '2017-2018'
 CC_LICENSE = {'name': 'CC BY-SA 3.0 CZ', 'link': 'https://creativecommons.org/licenses/by-sa/3.0/cz'}
 SITELOGO = SITEURL + '/images/author.jpg'
+OG_IMAGE = SITEURL + '/images/og.png'
 FAVICON = SITEURL + '/images/favicon.ico'
 PYGMENTS_STYLE = 'github'
 BROWSER_COLOR = '#006AA8'
 DISQUS_SITENAME = 'ivadol'
+GOOGLE_ANALYTICS = 'UA-110306205-1'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
