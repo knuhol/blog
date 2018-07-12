@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Ivana Doležalová'
+AUTHOR = 'Ivana Holm'
 SITENAME = 'O Švédsku a tak'
 SITETITLE = SITENAME
 SITESUBTITLE = AUTHOR
-SITEDESCRIPTION = 'Ivana Doležalová píše blog (nejen) o svém odchodu do Švédska'
-SITEURL = 'http://ivadol.cz'
+SITEDESCRIPTION = 'Ivana Holm píše blog (nejen) o svém odchodu do Švédska'
+SITEURL = 'http://ivahol.cz'
 COPYRIGHT_YEAR = '2017-2018'
 CC_LICENSE = {'name': 'CC BY-SA 3.0 CZ', 'link': 'https://creativecommons.org/licenses/by-sa/3.0/cz'}
 SITELOGO = SITEURL + '/images/author.jpg'
@@ -19,7 +19,7 @@ DISQUS_SITENAME = 'ivadol'
 GOOGLE_ANALYTICS = 'UA-110306205-1'
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'files']
 
 TIMEZONE = 'Europe/Prague'
 DEFAULT_DATE_FORMAT = '%-d. %-m. %Y (%-H:%M)'
@@ -35,9 +35,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ivana-dolezalova'),
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ivana-holm'),
           ('github', 'https://github.com/akarienta'),
-          ('stack-overflow', 'https://stackoverflow.com/users/3780766'))
+          ('stack-overflow', 'https://stackoverflow.com/users/3780766'),
+          ('instagram', 'https://www.instagram.com/ivanaholm'))
 
 MENUITEMS = (('Archiv', '/archives.html'),
              ('Kategorie', '/categories.html'),
