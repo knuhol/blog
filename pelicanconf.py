@@ -42,7 +42,8 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ivana-holm'),
 
 MENUITEMS = (('Archiv', '/archives.html'),
              ('Kategorie', '/categories.html'),
-             ('Tagy', '/tags.html'),)
+             ('Tagy', '/tags.html'),
+             ('Autoři', '/authors.html'))
 
 DEFAULT_PAGINATION = 5
 
@@ -50,6 +51,7 @@ THEME = "themes/Flex"
 
 MAIN_MENU = True
 HIDE_FLEX_COPYRIGHT = True
+MORE_AUTHORS = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['post_stats', 'i18n_subsites']
