@@ -32,7 +32,10 @@ TODO
 
 ### Pelican
 
-TODO
+```
+pip install pelican==3.7.1
+pip install Markdown
+```
 
 #### Notes
  * don't forget to install `bs4`
