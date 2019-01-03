@@ -2,7 +2,5 @@
 */
 !.gitignore
 !pelicanconf.py
-!publish.sh
-!watcher.ini
 !README.md
 !LICENSE.md
